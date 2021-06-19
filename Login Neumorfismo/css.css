@@ -1,0 +1,128 @@
+*
+{
+    box-sizing:border-box;
+}
+
+body{
+display:flex;
+background-color:#ecf0f3;
+
+}
+
+.div_login{
+    position:relative;
+    transform:translate(150px,150px);
+    padding:60px 35px 35px 35px;
+    width:430px;
+    height:700px;
+    box-shadow:13px 13px 20px #cfced1,
+    -13px -13px 20px #FFF;
+    background-color:#ecf0f3;
+    border-radius:40px;
+   
+}
+#title{
+    position:relative;
+    transform:translate(70px,0px); 
+    font-size:28px;
+}
+#sub{
+    position:relative;
+    transform:translate(90px,0px); 
+    font-size:28px;
+    padding-top:28px;
+    letter-spacing:4px;
+}
+input{
+    border:none;
+    background:none;
+    display:block;
+    font-size:18px;
+    color:#555;
+    padding:20px 10px 2px 5px;
+    
+    outline:none;
+    
+
+}
+#name{
+    position:relative;
+transform:translate(0px,200px);
+    box-shadow:inset 8px 8px 8px #cbced1, 
+    8px 8px 8px #FFF;
+    border-radius:25px;
+    margin-bottom:30px;
+}
+#password{
+    position:relative;
+    transform:translate(0px,200px);
+    position:relative;
+    box-shadow:inset 8px 8px 8px #cbced1, 
+    8px 8px 8px #FFF;
+    border-radius:25px;
+    margin-bottom:30px;
+}
+#b{
+position:relative;
+transform:translate(40px,5px);
+}
+#a{
+    position:relative;
+    transform:translate(40px,5px);
+}
+/* -----
+SVG Icons - svgicons.sparkk.fr
+----- */
+
+.svg-icon {
+    width: 1em;
+    height: 1em;
+  }
+  
+  .svg-icon path,
+  .svg-icon polygon,
+  .svg-icon rect {
+    fill: #4691f6;
+  }
+  
+  .svg-icon circle {
+    stroke: #4691f6;
+    stroke-width: 1;
+  }
+  #i1{
+      position:relative;
+      transform:translate(10px,40px);
+  }
+  #name svg{
+      position:relative;
+      transform:translate(20px,-15px);
+  }
+  #password svg{
+    position:relative;
+    transform:translate(20px,-15px);
+  }
+  #ss button{
+    position:relative;
+    transform:translate(0px,220px);
+      border-radius:30px;
+      width:360px;
+      height:50px;
+      box-shadow:6px 6px 3px #cbced1,
+      -6px -6px 3px #fff;
+      font-size:15px;
+      letter-spacing:1px;
+      transition:color 2s;
+  }
+  #lo svg{
+    position:relative;
+    transform:translate(160px,100px);
+    width:3em;
+    height:3em;
+  }
+  #ss button:hover{
+      background-color:#50e5b9;
+  }
+  #ss button:active{
+      background-color:green;
+  }
+  
